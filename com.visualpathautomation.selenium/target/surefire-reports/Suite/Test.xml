@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite hostname="satish-PC" name="com.VisualPath.LoginVerification" tests="4" failures="0" timestamp="13 Oct 2017 04:58:23 GMT" time="60.362" errors="0">
+  <testcase name="UserLogin" time="23.972" classname="com.VisualPath.LoginVerification"/>
+  <testcase name="UserLoginWithInvalidCredentails" time="9.788" classname="com.VisualPath.LoginVerificationWithInvalidCredentails"/>
+  <testcase name="CreateAccount" time="13.565" classname="com.VisualPath.SignupWithInputDetails"/>
+  <testcase name="CreateAccountWithoutdata" time="13.021" classname="com.VisualPath.SignupWithOldInputDetails"/>
+</testsuite>
