@@ -47,9 +47,13 @@ public class Driver {
 
 		// Set driver with profile
 
+		/*System.setProperty("webdriver.chrome.driver",
+				System.getProperty("user.dir")
+						+ "\\newchromedriver\\chromedriver.exe");*/
+		
 		System.setProperty("webdriver.chrome.driver",
 				System.getProperty("user.dir")
-						+ "\\newchromedriver\\chromedriver.exe");
+						+ "\\linuxchromedriver\\chromedriver");
 
 		// To remove message "You are using an unsupported command-line flag:
 		// --ignore-certificate-errors.
