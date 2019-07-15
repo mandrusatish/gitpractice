@@ -51,9 +51,11 @@ public class Driver {
 				System.getProperty("user.dir")
 						+ "\\newchromedriver\\chromedriver.exe");*/
 		
-		System.setProperty("webdriver.chrome.driver",
+		/*System.setProperty("webdriver.chrome.driver",
 				System.getProperty("user.dir")
-						+ "\\linuxchromedriver\\chromedriver");
+						+ "\\linuxchromedriver\\chromedriver");*/
+		
+		System.setProperty("webdriver.chrome.driver","/app/mfino/jenkins/chromedriver");
 
 		// To remove message "You are using an unsupported command-line flag:
 		// --ignore-certificate-errors.
