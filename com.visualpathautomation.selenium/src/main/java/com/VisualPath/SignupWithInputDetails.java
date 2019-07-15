@@ -98,7 +98,7 @@ public class SignupWithInputDetails extends Driver{
 				
 				if(ErrorMessage.contains("User has already taken this Username."))	
 				{
-					System.out.println("User is already created with this details");
+					System.out.println("User is is already created with this details");
 				}
 				else
 				{
