@@ -23,7 +23,7 @@ public class TestScripts extends Driver {
 	@Test(priority =0)
 	public static void Signup() throws MalformedURLException, InterruptedException
 	{
-		SignupWithInputDetails s = new SignupWithInputDetails(driver);
+		SignupWithInputDetails m = new SignupWithInputDetails(driver);
 	   
 		
 		
