@@ -78,7 +78,7 @@ public class LoginVerification extends Driver{
 				Thread.sleep(3000);
 				homepagetitle = d.getDriver().findElement(By.cssSelector("span[class='user-name']")).getText();
 				
-				System.out.println("title of the home screen  :"+homepagetitle);
+				System.out.println("title of the home screensssss  :"+homepagetitle);
 				
 				if(homepagetitle.equalsIgnoreCase(username))
 				{
