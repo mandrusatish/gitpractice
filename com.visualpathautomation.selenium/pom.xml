@@ -6,7 +6,7 @@
   <name>VisualPathAutomation</name>
   <description>VisualPathAutomation</description>
   
-  <packaging>jar</packaging>
+      <packaging>jar</packaging>
  
  <properties>
     <suiteXmlFile>src/main/resources/testng.xml</suiteXmlFile>
